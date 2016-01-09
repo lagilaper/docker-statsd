@@ -4,7 +4,7 @@ MAINTAINER lagilaper <pengen.makan.nasi@gmail.com>
 
 RUN apt-get -y update
 
-RUN apt-get -y --force-yes install nodejs python git wget
+RUN apt-get -y --force-yes install nodejs python git wget npm
 
 RUN git clone git://github.com/etsy/statsd.git statsd
 
