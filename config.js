@@ -2,7 +2,7 @@
     influxdb: {
         host: 'influxdb', // InfluxDB host. (default 127.0.0.1)
         port: 8086, // InfluxDB port. (default 8086)
-        database: ‘demo',  // InfluxDB database instance. (required)
+        database: 'demo',  // InfluxDB database instance. (required)
         username: 'root', // InfluxDB database username. (required)
         password: 'root', // InfluxDB database password. (required)
 	version: 0.9,
