@@ -5,6 +5,7 @@
         database: ‘demo',  // InfluxDB database instance. (required)
         username: 'root', // InfluxDB database username. (required)
         password: 'root', // InfluxDB database password. (required)
+	version: 0.9,
         flush: {
             enable: true // Enable regular flush strategy. (default true)
         },
